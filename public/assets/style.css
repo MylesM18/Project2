@@ -1,0 +1,41 @@
+/* html{
+    background-image: url(./img/clouds.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+} */
+html{
+    background-image: url(./img/inspire_bg.jpg);
+    background-size: 100%;
+    background-position-y: -600px;;
+}
+
+img{
+    width:350px;
+    position: relative;
+    left: 28vw;
+    top: 3vw;
+    opacity: 88%;
+}
+
+#home-phrase{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: #000;
+    position: relative;
+    top: 18vw;
+    right: 3vw;
+    opacity: 50%;
+}
+
+#keyword_input {
+    position: relative;
+    bottom: 10px;
+    left: 23vw;
+    width:40vw;
+}
+
+button{
+    position: relative;
+    bottom: 65px;
+    left:65vw;
+}

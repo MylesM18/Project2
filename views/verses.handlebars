@@ -1,0 +1,39 @@
+<body>
+
+    <div class="container">
+        <img src="/assets/img/logo.png" alt="logo">
+    </div>
+
+    {{!-- Verses Input --}}
+    <div class="container" id="verse-box">
+    <article class="message is-dark">
+        <div class="message-header" id="verse_box">
+            <p>{{keyword}}</p>
+            <button class="delete" aria-label="delete"></button>
+        </div>
+        <div class="message-body">
+
+            <ul class="verses_list">
+                {{#each data}}
+                <li>*{{this.text}}</li>
+                {{/each}}
+            </ul>
+        </div>
+    </article>
+    </div>
+
+    {{!-- Songs Input --}}
+    <div class="container" id="song-box">
+    <article class="message is-dark">
+        <div class="message-header">
+            <p>Songs</p>
+            <button class="delete" aria-label="delete"></button>
+        </div>
+        <div class="message-body">
+
+        </div>
+    </article>
+    </div>
+  
+</body>
+</html>

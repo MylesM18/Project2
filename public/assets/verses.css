@@ -1,0 +1,26 @@
+html{
+         background-image: url(./img/clouds.jpg);
+         background-size: 100%;
+}
+
+img{
+        width: 100px;
+        position: relative;
+        right: 25px;
+}
+
+
+#verse-box{
+        position: relative;
+        width: 770px;
+        right: 25px;
+        opacity: 89%;
+}
+
+#song-box{
+        position: relative;
+        top: 8vw;
+        width: 770px;
+        right: 25px;
+        opacity: 89%;
+}
