@@ -1,7 +1,7 @@
 <body>
 
     <div class="container">
-        <img src="/assets/img/logo.png" alt="logo">
+        <a href="/"><img src="/assets/img/logo.png" alt="logo"></a>
     </div>
 
     {{!-- Verses Input --}}
@@ -30,7 +30,9 @@
             <button class="delete" aria-label="delete"></button>
         </div>
         <div class="message-body">
-
+            {{#each filtered}}
+               <div><a href="/inspire/{{title}}">{{> song}}</a></div>
+            {{/each}}
         </div>
     </article>
     </div>
