@@ -10,6 +10,9 @@ module.exports = function(sequelize, DataTypes) {
       },
       song_lyric: {
           type: DataTypes.TEXT
+      },
+      preview:{
+        type: DataTypes.STRING
       }
     });
     return Song;

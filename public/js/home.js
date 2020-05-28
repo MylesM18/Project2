@@ -4,4 +4,3 @@ $("#search_button").on("click", function () {
   window.location.href = "/verses/" + user_input;
  
 });
-

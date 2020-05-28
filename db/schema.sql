@@ -11,6 +11,7 @@ CREATE TABLE songs (
   artist varchar(255) NOT NULL,
    title varchar(255) NOT NULL,
    song_lyric MEDIUMTEXT NOT NULL,
+   preview varchar(255) NOT NULL,
 PRIMARY KEY (id)
 );
 
